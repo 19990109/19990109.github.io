@@ -1,0 +1,103 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{
+    left: 95%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    background: url("../img/1.jpg");
+    background-size: cover;
+
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.slide1 .b{
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+}
+.slide1 .a1{
+    width: 50%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -100px;
+}
+.slide1 .a2{
+    width: 90%;
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    margin-left: -180px;
+}
+.slide1 .a3{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -180px;
+}
+.slide1 .a4{
+    width: 85%;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-left: -180px;
+}
+.slide1 .a4{
+    width: 85%;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-left: -180px;
+}
+.slide1 .a5{
+    width: 80%;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    margin-left: -150px;
+}
+.slide1 .a6{
+    width: 69%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-left: -135px;
+}
+.swiper-button-next{
+    top: auto;
+    bottom: 2%;
+    left: 50%;
+    margin-left: -13.5px;
+    transform:rotateZ(-90deg);
+}
