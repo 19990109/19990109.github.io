@@ -286,7 +286,7 @@ body {
     animation:xia 2s linear infinite;
 }
 .Slide3{
-    overflow: auto;
+    overflow: hidden;
 }
 .Slide4{
     overflow: auto;
@@ -311,13 +311,21 @@ body {
 
 
 
-
-
+.slide3 .img{
+    width: 100%;
+    overflow: hidden;
+    /*display: block;*/
+}
+.imggg{
+    left: 5%;
+    right: 5%
+}
 .Slide3 .img1{
     border: 1px solid #fff;
     width: 90%;
     position: absolute;
     top: 25%;
+
 }
 .Slide3 .img2{
     border: 1px solid #fff;
