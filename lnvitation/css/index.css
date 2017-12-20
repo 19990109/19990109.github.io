@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    background: url("../img/beijing.jpg");
+    background-size: 100% 100%;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+.music_off{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    z-index: 100;
+    animation:music_off 1s linear infinite;
+}
+@keyframes music_off {
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+
+.jt{
+    transform: rotate(-90deg);
+    position: absolute;
+    top:auto;
+    bottom: 0%;
+    left: 50%;
+    margin-left: -13.5px;
+    animation:xia 2s linear infinite;
+}
+
+@keyframes xia {
+    0%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    50%{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
+
+
+.logo{
+    width: 20%;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
+@keyframes san{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+.san{
+    position: absolute;
+    top:15%;
+    left: 10%;
+    width: 20%;
+    animation:san 2s linear infinite;
+}
+.san1{
+    position: absolute;
+    top:10%;
+    right: 10%;
+    width: 20%;
+    animation:san 2s linear infinite;
+}
+.san2{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 20%;
+    animation:san 2s linear infinite;
+}
+.san3{
+    position: absolute;
+    top: auto;
+    left: 60%;
+    bottom: 20%;
+    width: 20%;
+    animation:san 2s linear infinite;
+}
+.san4{
+    position: absolute;
+    top: auto;
+    left: 25%;
+    bottom: 35%;
+    width: 15%;
+    animation:san 2s linear infinite;
+}
+.Slide1 .yuan{
+    width: 80%;
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    animation:san 4s infinite;
+}
+.Slide1 .yqh{
+    width: 70%;
+    position: absolute;
+    top: 21%;
+    left: 13%;
+}
+.Slide1 .bian{
+    width: 85%;
+    position: absolute;
+    top: 21.5%;
+    left: 8%;
+    transform: rotateZ(180deg);
+}
+.Slide1 .xian{
+    width: 35%;
+    position: absolute;
+    top: auto;
+    bottom: 10%;
+}
+.Slide1 .text{
+    color: #ccc;
+    font-size: 14px;
+    position: absolute;
+    top: auto;
+    bottom: 6%;
+}
+.Slide1 .text p{
+    margin: 0px;
+}
+
+
+.Slide2{
+    overflow: auto;
+}
+.Slide2 .xia{
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    right: 0;
+    animation:xia 2s linear infinite;
+}
+@keyframes xia {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.Slide2 .yuan{
+    width: 70%;
+    position: absolute;
+    top: -25%;
+    left: 15%;
+    animation:san 7s linear infinite;
+}
+.Slide2 .hy{
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    top: 3%;
+}
+.Slide2 .guang{
+    width: 50%;
+    position: absolute;
+    top: 5%;
+}
+.Slide2 .bt{
+    width: 80%;
+    position: absolute;
+    top: 23%;
+}
+.Slide2 .text{
+    text-align: left;
+    width: 80%;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    top: auto;
+    bottom: 8%;
+}
+.Slide3 .yuan{
+    width: 70%;
+    position: absolute;
+    top: -25%;
+    left: 15%;
+    animation:san 7s linear infinite;
+}
+.Slide3 .xia{
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    right: 0;
+    animation:xia 2s linear infinite;
+}
+
+.Slide4 .yuan{
+    width: 70%;
+    position: absolute;
+    top: -25%;
+    left: 15%;
+    animation:san 7s linear infinite;
+}
+.Slide4 .xia{
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    right: 0;
+    animation:xia 2s linear infinite;
+}
+.Slide5 .yuan{
+    width: 70%;
+    position: absolute;
+    top: -25%;
+    left: 15%;
+    animation:san 7s linear infinite;
+}
+.Slide5 .xia{
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    right: 0;
+    animation:xia 2s linear infinite;
+}
+.Slide6 .yuan{
+    width: 70%;
+    position: absolute;
+    top: -25%;
+    left: 15%;
+    animation:san 7s linear infinite;
+}
+.Slide6 .xia{
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    right: 0;
+    animation:xia 2s linear infinite;
+}
+.Slide3{
+    overflow: auto;
+}
+.Slide4{
+    overflow: auto;
+}
+.Slide5{
+    overflow: auto;
+}
+
+
+
+.Slide3 .wh{
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    top: 3%;
+}
+.Slide3 .guang{
+    width: 50%;
+    position: absolute;
+    top: 5%;
+}
+
+
+
+
+
+.Slide3 .img1{
+    border: 1px solid #fff;
+    width: 90%;
+    position: absolute;
+    top: 25%;
+}
+.Slide3 .img2{
+    border: 1px solid #fff;
+    width: 90%;
+    position: absolute;
+    top: 25%;
+}
+.Slide3 .img3{
+    border: 1px solid #fff;
+    width: 90%;
+    position: absolute;
+    top: 25%;
+}
+.Slide3 .img4{
+    border: 1px solid #fff;
+    width: 90%;
+    position: absolute;
+    top: 25%;
+}
+.Slide3 .img5{
+    border: 1px solid #fff;
+    width: 90%;
+    position: absolute;
+    top: 25%;
+}
+.Slide3 .img6{
+    border: 1px solid #fff;
+    width: 90%;
+    position: absolute;
+    top: 25%;
+}
+.Slide3 .img7{
+    border: 1px solid #fff;
+    width: 90%;
+    position: absolute;
+    top: 25%;
+}
+.Slide3 .img8{
+    border: 1px solid #fff;
+    width: 90%;
+    position: absolute;
+    top: 25%;
+}
+.Slide3 .img9{
+    border: 1px solid #fff;
+    width: 90%;
+    position: absolute;
+    top: 25%;
+}
+.Slide3 .img10{
+    border: 1px solid #fff;
+    width: 90%;
+    position: absolute;
+    top: 25%;
+}
+.Slide3 .img11{
+    border: 1px solid #fff;
+    width: 90%;
+    position: absolute;
+    top: 25%;
+}
+.Slide3 .img12{
+    border: 1px solid #fff;
+    width: 90%;
+    position: absolute;
+    top: 25%;
+}
+.Slide3 .img13{
+    border: 1px solid #fff;
+    width: 90%;
+    position: absolute;
+    top: 25%;
+}
+.Slide3 .h2{
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    top: 18%;
+}
+.Slide3 .h22{
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    top: auto;
+    bottom: 36%;
+}
+.Slide3 .abc{
+    width:90%;
+    height:25%;
+    border:#ccc solid 1px;
+    font-size:12px;
+    position: absolute;
+    top: auto;
+    bottom: 7%;
+}
+
+
+
+
+
+
+
+
+.Slide4 .ld{
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    top: 3%;
+}
+.Slide4 .guang{
+    width: 50%;
+    position: absolute;
+    top: 5%;
+}
+.Slide4 .qhd{
+    width: 80%;
+    position: absolute;
+    top: 23%;
+}
+.Slide4 .text{
+    text-align: left;
+    width: 80%;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    top: auto;
+    bottom: 8%;
+}
+
+
+
+
+
+
+.Slide5 .inp1{
+    width: 60%;
+    height: 5%;
+    border-radius:10px 10px 10px 10px;
+    background: rgba(100,100,100, 0.1);
+    color: #fff;
+    padding-left: 20px;
+    position: absolute;
+    top: 35%;
+}
+.Slide5 .inp2{
+    width: 60%;
+    height: 5%;
+    border-radius:10px 10px 10px 10px;
+    background: rgba(100,100,100, 0.1);
+    color: #fff;
+    padding-left: 20px;
+    position: absolute;
+    top: 45%;
+}
+.Slide5 .inp3{
+    width: 60%;
+    height: 5%;
+    border-radius:10px 10px 10px 10px;
+    background: rgba(100,100,100, 0.1);
+    color: #fff;
+    padding-left: 20px;
+    position: absolute;
+    top: 55%;
+}
+.Slide5 button{
+    width: 60%;
+    height: 5%;
+    border-radius:10px 10px 10px 10px;
+    position: absolute;
+    top: 65%;
+    background: #FFA500;
+    border:none;
+}
+.Slide5 .zx{
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    top: 3%;
+}
+.Slide5 .guang{
+    width: 50%;
+    position: absolute;
+    top: 5%;
+}
+
+
+
+
+
