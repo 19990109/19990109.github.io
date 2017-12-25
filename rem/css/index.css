@@ -1,0 +1,147 @@
+.style_layout{
+    width: 6.4rem;
+    min-height: 2rem;
+/*    background-color: red;*/
+}
+.style_logo,.style_search,.style_banner,.style_new,.style_hot,.style_fasion,.style_footer{
+    width: 6.4rem;
+    
+}
+.style_logo {
+   
+    margin: auto;
+    text-align: center;
+    background-color: #f3f3f3;
+    position: fixed;
+    top: 0;
+}
+.style_logo img{
+    width: 2.1rem;
+}
+.style_search{
+
+    position: fixed;
+    top: 0.4rem;
+    background-color: #fff;
+}
+.style_search input{
+    width: 6rem;
+   height: 0.4rem;
+    font-size: 0.2rem;
+    float: left;
+    margin: 0.2rem auto;
+    
+}
+.style_search button{
+   height: 0.4rem;
+    width: 0.4rem;
+    margin: 0.2rem auto;
+    
+}
+.style_search button img{
+    height: 0.35rem;
+    width: 0.35rem;
+    
+    
+}
+.style_banner{
+    margin-top: 1.2rem;
+    background-color: #fff;
+}
+.style_banner img{
+    width: 100%;
+}
+.zi{
+    text-align: center;
+    font-size: 0.2rem;
+}
+.style_new {
+    
+}
+.style_new img{
+    width: 2.1rem;
+}
+.zhong{
+    margin-bottom: 0.4rem;
+}
+.style_new ul li{
+    float: left;
+}
+.style_new ul li p{
+    text-align: center;
+    font-size: 0.09rem;
+}
+.p2{
+    color: #27004f;
+}
+.a1{
+text-align: center;
+   padding-top: 0.5rem;
+    clear: both;
+}
+.a1 a{
+   border: 1px solid #000;
+    color: #000;
+    padding:0.1rem 0.1rem;
+}
+.style_new{
+    border-bottom: 5px solid #eeeeee;
+}
+.style_hot h1{
+    text-align: center;
+    font-size: 0.4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.hot1 img{
+    width: 2rem;
+    float: left;
+    margin-left: 0.09rem;
+}
+.hot img{
+    width: 2rem;
+    float: left;
+    margin-left: 0.09rem; 
+}
+.a2{
+    text-align: center;
+   padding-top: 0.5rem;
+    clear: both;
+}
+.a2 a{
+    border: 1px solid #000;
+    color: #000;
+    padding:0.1rem 0.1rem;
+}
+.style_fasion h1{
+    text-align: center;
+     font-size: 0.4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-top: 5px solid #eee;
+}
+.style_fasion img{
+    width: 6.4rem;
+}
+.style_footer ul li{
+    float: left;
+    margin-left: 0.55rem;
+}
+.style_footer img{
+    width: 0.4rem;
+    margin-left:0.09rem;
+}
+.style_footer ul li a{
+    color: #757575;
+}
+.te img{
+    margin-left: 0.2rem;
+}
+.q{
+    margin-top: 0.2rem;
+}
+.style_footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #f3f3f3;
+}

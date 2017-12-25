@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+}
+body{
+    font-family:  "Microsoft YaHei",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+input{
+    outline: none;
+}
+
+/*公共样式*/
+.f_left{
+    float: right;
+}
+.clearfix:before,
+.clearfix:after{
+    content:'';
+    clear: both;
+    display: table;
+}
